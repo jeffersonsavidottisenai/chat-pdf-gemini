@@ -1,0 +1,4 @@
+google-genarativeai
+pypdf
+streamlit
+python-dotenv
