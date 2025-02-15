@@ -160,3 +160,55 @@ GEMINI_API_KEY=SUACHAVEAQUI
 # Rodar o Streamlit
 streamlit run src/main.py
 ```
+
+## 🔄 Como Clonar e Subir para um Novo Repositório
+
+### 1️⃣ Clonar um repositório existente
+Se você já possui um repositório remoto e deseja baixá-lo para sua máquina, use:
+```bash
+git clone SEU_REPOSITORIO_URL
+cd chat-pdf-gemini
+```
+
+### 2️⃣ Iniciar um novo repositório Git
+Se você deseja começar um novo repositório do zero, siga estes passos:
+```bash
+# Navegue até a pasta do seu projeto
+cd caminho/para/seu/projeto
+
+# Inicialize o Git no diretório
+git init
+```
+Isso cria um repositório Git local na pasta do projeto.
+
+### 3️⃣ Configurar o Git (apenas na primeira vez)
+Defina seu nome e email globais para que seus commits sejam identificados corretamente:
+```bash
+git config --global user.name "Seu Nome"
+git config --global user.email "seu.email@example.com"
+```
+
+### 4️⃣ Adicionar os arquivos ao repositório
+```bash
+# Adiciona todos os arquivos ao controle do Git
+git add .
+
+# Cria o primeiro commit
+git commit -m "Primeiro commit"
+```
+
+### 5️⃣ Conectar ao repositório remoto
+Se você ainda não vinculou seu repositório local a um remoto, faça isso:
+```bash
+git remote add origin NOVO_REPOSITORIO_URL
+```
+
+### 6️⃣ Enviar os arquivos para o repositório remoto
+```bash
+git push -u origin main -f
+```
+Se estiver usando o GitHub e a branch principal tiver outro nome (como `master`), pode ser necessário usar:
+```bash
+git push -u origin master -f
+```
+
