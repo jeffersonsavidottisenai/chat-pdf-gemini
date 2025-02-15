@@ -1,7 +1,6 @@
-import sys # importar e utilizar ferramentas do sistema
-import os # imortar e ter acesso ao sistema operacional
+import sys
+import os
 
-#  direcionamento de caminhos e acesso a diretorios do projeto
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 import streamlit as st
